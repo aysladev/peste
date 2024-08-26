@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+
+    font-family: "Kanit", sans-serif;
+    /*
+    font-family: "Radio Canada Big", sans-serif;
+*/
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+}
+
+#logo1 {
+    width: 150px;
+}
+
+#logo {
+    width: 390px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c070c;
+
+}
+
+.abas-navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: #0c070c;
+    width: 100%;
+    height: 100px;
+}
+
+.aba {
+    font-size: 20px;
+    transition: 0.8s all;
+}
+
+.aba:hover {
+    color: #c700ff;
+    transform: scale(1.1)
+}
+
+
+.abas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.tabelatimes{
+    border-collapse: collapse;
+    width: 100%;
+}
+.tabelatimes td, .tabelatimes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+.tabelatimes tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .tabelatimes tr:hover {background-color: #ddd;}
+  
+  .tabelatimes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1c1f1e;
+    color: white;
+  }
+
+.noticiabanner{
+    background-image: url(img/fimcblolbanner.webp);
+    padding: 150px;
+    color: #ddd;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .campeonatosdomomento {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.campeonatosdomomento li {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(155, 177, 187);
+    width: 260px;
+    height: 90px;
+    border-radius: 15px;
+    transition: 1s all;
+}
+
+.campeonatosdomomento li:hover {
+    transform: scale(1.1);
+    background-color: rgb(44, 43, 43);
+}
+
+.campeonatosdomomento li {
+    font-size: 7px;
+    color: white;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ 

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+img {
+    width: 60px;
+}
+
+header{
+
+    background:#0C070C;
+    border-bottom: #0C070C 10px;
+    border-top: #0C070C 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 990px;
+    border-bottom: solid  aliceblue 1px;
+    font-size: x-large;
+}
+
+.content{
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid blueviolet;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bar:hover{
+    background-color: #fff;
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide{
+    width: 20%;
+    transition: .6s;
+
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~.s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~.s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~.s1 {
+    margin-left: -40%;
+}
+
+#slide4:checked ~.s1 {
+    margin-left: -60%;
+}
+
+#slide5:checked ~.s1 {
+    margin-left: -80%;
+}
+/*----------------------------------------------------------------------------------*/
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+   
+
+}
+
+#logo1 {
+    width: 150px;
+}
+
+#logo {
+    width: 390px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c070c;
+
+}
+
+.abas-navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: #0c070c;
+    width: 100%;
+    height: 100px;
+}
+
+.aba {
+    font-size: 20px;
+    transition: 0.8s all;
+}
+
+.aba:hover {
+    color: #c700ff;
+    transform: scale(1.1)
+}
+
+.abas {
+    display: flex;
+    flex-direction: row;
+    margin-left: 14%;
+    gap: 20px;
+    padding-top: 20px;
+    margin-top: 800px;
+    
+    
+    
+}
+
+.abas-jogos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+    width: 260px;
+    height: 90px;
+    border-radius: 15px;
+    transition: 1s all;
+}
+
+.abas-jogos:hover {
+    transform: scale(1.1);
+    background-color: rgb(44, 43, 43);
+}
+
+.subdiv {
+    font-size: 7px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-jogos {
+    color: gray;
+}
+
+.geral{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fps{
+    font-style: color black;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+  
+.tabelatimes{
+    border-collapse: collapse;
+    width: 100%;
+}
+.tabelatimes td, .tabelatimes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+.tabelatimes tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .tabelatimes tr:hover {background-color: #ddd;}
+  
+  .tabelatimes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1c1f1e;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+  
+    footer {
+        position: static;
+        width: 100%;
+        background-color: #0C070C;
+        padding: .5px;
+        text-align: center;
+        font-size: x-large;
+    }
+    
+
+    
+
