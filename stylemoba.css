@@ -70,28 +70,34 @@ nav {
     padding-top: 20px;
 }
 
-.tabelatimes{
+.tabelatimes {
     border-collapse: collapse;
     width: 100%;
 }
-.tabelatimes td, .tabelatimes th {
+
+.tabelatimes td,
+.tabelatimes th {
     border: 1px solid #ddd;
     padding: 8px;
-  }
-  
-.tabelatimes tr:nth-child(even){background-color: #f2f2f2;}
-  
-  .tabelatimes tr:hover {background-color: #ddd;}
-  
-  .tabelatimes th {
+}
+
+.tabelatimes tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabelatimes tr:hover {
+    background-color: #ddd;
+}
+
+.tabelatimes th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #1c1f1e;
     color: white;
-  }
+}
 
-.noticiabanner{
+.noticiabanner {
     background-image: url(img/fimcblolbanner.webp);
     padding: 150px;
     color: #ddd;
@@ -99,41 +105,42 @@ nav {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  .campeonatosdomomento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+li {
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
-    gap: 20px;
-    padding-top: 20px;
-}
-
-.campeonatosdomomento li {
-    display: inline-block;
-    justify-content: space-around;
     align-items: center;
-    background-color: rgb(155, 177, 187);
-    width: 260px;
-    height: 90px;
-    border-radius: 15px;
-    transition: 1s all;
-}
-
-.campeonatosdomomento li:hover {
-    transform: scale(1.1);
-    background-color: rgb(44, 43, 43);
-}
-
-.campeonatosdomomento li {
-    font-size: 7px;
-    color: white;
-    display: inline-block;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    list-style: none;
 }
 
- 
+.campeonatosdomomento {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabelaEtexto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+.noticiasmoba img{
+    width: 500px;
+}
